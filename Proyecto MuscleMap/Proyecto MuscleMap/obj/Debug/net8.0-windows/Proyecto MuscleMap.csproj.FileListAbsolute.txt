@@ -1,0 +1,17 @@
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\bin\Debug\net8.0-windows\Proyecto MuscleMap.exe
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\bin\Debug\net8.0-windows\Proyecto MuscleMap.deps.json
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\bin\Debug\net8.0-windows\Proyecto MuscleMap.runtimeconfig.json
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\bin\Debug\net8.0-windows\Proyecto MuscleMap.dll
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\bin\Debug\net8.0-windows\Proyecto MuscleMap.pdb
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto_MuscleMap.Form1.resources
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto_MuscleMap.Properties.Resources.resources
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.dll
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\refint\Proyecto MuscleMap.dll
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.pdb
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\Proyecto MuscleMap.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Programacion Gym\Proyecto MuscleMap\Proyecto MuscleMap\obj\Debug\net8.0-windows\ref\Proyecto MuscleMap.dll
