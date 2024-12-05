@@ -39,6 +39,8 @@
             label1 = new Label();
             PanelContenedor = new Panel();
             PanelCon = new Panel();
+            label14 = new Label();
+            label11 = new Label();
             BotonIniciar = new Button();
             panel7 = new Panel();
             textBox2 = new TextBox();
@@ -49,6 +51,9 @@
             label22 = new Label();
             pictureBox3 = new PictureBox();
             PanelRegistro = new Panel();
+            label15 = new Label();
+            label17 = new Label();
+            pictureBox4 = new PictureBox();
             botonRegistrar = new Button();
             dateTimePicker1 = new DateTimePicker();
             PanelFechaDeNacimiento = new Panel();
@@ -75,18 +80,13 @@
             label16 = new Label();
             pictureBox2 = new PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
-            label11 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label17 = new Label();
-            pictureBox4 = new PictureBox();
             PanelPrincipal.SuspendLayout();
             PanelContenedor.SuspendLayout();
             PanelCon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             PanelRegistro.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // PanelPrincipal
@@ -213,6 +213,26 @@
             PanelCon.Size = new Size(400, 430);
             PanelCon.TabIndex = 3;
             // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.ForeColor = Color.Black;
+            label14.Location = new Point(83, 8);
+            label14.Name = "label14";
+            label14.Size = new Size(31, 15);
+            label14.TabIndex = 19;
+            label14.Text = "Map";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.ForeColor = Color.DarkOrange;
+            label11.Location = new Point(42, 7);
+            label11.Name = "label11";
+            label11.Size = new Size(45, 15);
+            label11.TabIndex = 18;
+            label11.Text = "Muscle";
+            // 
             // BotonIniciar
             // 
             BotonIniciar.BackColor = Color.Black;
@@ -227,6 +247,7 @@
             BotonIniciar.TabIndex = 17;
             BotonIniciar.Text = "Acceder";
             BotonIniciar.UseVisualStyleBackColor = false;
+            BotonIniciar.Click += BotonIniciar_Click;
             BotonIniciar.MouseEnter += BotonMouseEnter;
             BotonIniciar.MouseLeave += BotonMouseLeave;
             // 
@@ -333,6 +354,36 @@
             PanelRegistro.Size = new Size(390, 420);
             PanelRegistro.TabIndex = 2;
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.ForeColor = Color.Black;
+            label15.Location = new Point(83, 11);
+            label15.Name = "label15";
+            label15.Size = new Size(31, 15);
+            label15.TabIndex = 22;
+            label15.Text = "Map";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.ForeColor = Color.DarkOrange;
+            label17.Location = new Point(42, 10);
+            label17.Name = "label17";
+            label17.Size = new Size(45, 15);
+            label17.TabIndex = 21;
+            label17.Text = "Muscle";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(3, 0);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(51, 63);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 20;
+            pictureBox4.TabStop = false;
+            // 
             // botonRegistrar
             // 
             botonRegistrar.BackColor = Color.Black;
@@ -347,6 +398,7 @@
             botonRegistrar.TabIndex = 17;
             botonRegistrar.Text = "Registrar";
             botonRegistrar.UseVisualStyleBackColor = false;
+            botonRegistrar.Click += botonRegistrar_Click;
             botonRegistrar.MouseEnter += BotonMouseEnter;
             botonRegistrar.MouseLeave += BotonMouseLeave;
             // 
@@ -594,56 +646,6 @@
             timer1.Interval = 1;
             timer1.Tick += timer1_Tick;
             // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.ForeColor = Color.DarkOrange;
-            label11.Location = new Point(42, 7);
-            label11.Name = "label11";
-            label11.Size = new Size(45, 15);
-            label11.TabIndex = 18;
-            label11.Text = "Muscle";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.ForeColor = Color.Black;
-            label14.Location = new Point(83, 8);
-            label14.Name = "label14";
-            label14.Size = new Size(31, 15);
-            label14.TabIndex = 19;
-            label14.Text = "Map";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.ForeColor = Color.Black;
-            label15.Location = new Point(83, 11);
-            label15.Name = "label15";
-            label15.Size = new Size(31, 15);
-            label15.TabIndex = 22;
-            label15.Text = "Map";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.ForeColor = Color.DarkOrange;
-            label17.Location = new Point(42, 10);
-            label17.Name = "label17";
-            label17.Size = new Size(45, 15);
-            label17.TabIndex = 21;
-            label17.Text = "Muscle";
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(3, 0);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(51, 63);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 20;
-            pictureBox4.TabStop = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -663,8 +665,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             PanelRegistro.ResumeLayout(false);
             PanelRegistro.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
